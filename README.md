@@ -13,7 +13,6 @@ Esta API é desenhada para comunicar-se, utilizando uma arquitetura REST entre u
 * Fácil de instalar
 * Feito com Docker e Docker Compose para deploy simples
 * Builds automatizadas
-* Análise comparativa entre a implementação híbrida e nativa no Android
 
 ## Instalação
 
