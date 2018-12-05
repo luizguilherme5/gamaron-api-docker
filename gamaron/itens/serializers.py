@@ -10,7 +10,7 @@ from rest_framework import serializers
 class ItenSerializer(serializers.ModelSerializer):
     class Meta:
         model = Iten
-        fields = ('id', 'name', 'description')
+        fields = ('id', 'name', 'description', 'avatar')
 
 
 @permission_classes((permissions.IsAuthenticatedOrReadOnly,))

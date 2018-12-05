@@ -115,6 +115,7 @@ LOCAL_APPS = [
     'gamaron.users.apps.UsersConfig',
     'gamaron.itens.apps.ItensConfig',
     'gamaron.quests.apps.QuestsConfig',
+    'gamaron.avatar.apps.AvatarConfig',
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS

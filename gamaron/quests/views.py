@@ -34,7 +34,6 @@ class JournalViewSet(viewsets.ModelViewSet):
         return Response(serializer.data)
 
     def post(self, request):
-
         serializer = JournalSerializer(data=request.data)
         if serializer.is_valid(raise_exception=ValueError):
             serializer.create(validated_data=request.data)

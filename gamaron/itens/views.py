@@ -1,7 +1,4 @@
-from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
-from users.serializers import UserSerializer, GroupSerializer, UserPlayerSerializer
-from users.models import UserPlayer
 from itens.models import Iten, PlayerInventory
 from itens.serializers import ItenSerializer, PlayerInventorySerializer
 
