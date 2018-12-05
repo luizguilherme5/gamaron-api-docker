@@ -20,7 +20,7 @@ urlpatterns = [
     url(settings.ADMIN_URL, admin.site.urls),
     url(r"^accounts/", include("allauth.urls")),
     # Your stuff: custom urls includes go here
-    url(r"^api/", include("lacos_api.general.urls")),
+    url(r"^api/", include("gamaron.general.urls")),
     url(r'^api/token/$', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     url(r'^api/token/refresh/$', TokenRefreshView.as_view(), name='token_refresh'),
 ] + static(

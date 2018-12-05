@@ -1,4 +1,4 @@
-# Lacos API documentation build configuration file, created by
+# Gamaron API documentation build configuration file, created by
 # sphinx-quickstart.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -39,7 +39,7 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = "Lacos API"
+project = "Gamaron API"
 copyright = """2018, Luiz Guilherme Silva"""
 
 # The version info for the project you're documenting, acts as replacement for
@@ -182,8 +182,8 @@ latex_elements = {
 latex_documents = [
     (
         "index",
-        "lacos_api.tex",
-        "Lacos API Documentation",
+        "gamaron.tex",
+        "Gamaron API Documentation",
         """Luiz Guilherme Silva""",
         "manual",
     )
@@ -217,8 +217,8 @@ latex_documents = [
 man_pages = [
     (
         "index",
-        "lacos_api",
-        "Lacos API Documentation",
+        "gamaron",
+        "Gamaron API Documentation",
         ["""Luiz Guilherme Silva"""],
         1,
     )
@@ -236,11 +236,11 @@ man_pages = [
 texinfo_documents = [
     (
         "index",
-        "lacos_api",
-        "Lacos API Documentation",
+        "gamaron",
+        "Gamaron API Documentation",
         """Luiz Guilherme Silva""",
-        "Lacos API",
-        """Lacos de Alegria API created with Cookie Cutter""",
+        "Gamaron API",
+        """Gamaron de Alegria API created with Cookie Cutter""",
         "Miscellaneous",
     )
 ]

@@ -1,12 +1,12 @@
 
-[![Travis branch](https://img.shields.io/travis/fga-gpp-mds/2018.1-Lacos-da-Alegria.svg)](https://github.com/fga-gpp-mds/2018.1-Lacos-da-Alegria)
+[![Travis branch](https://img.shields.io/travis/fga-gpp-mds/2018.1-Gamaron-da-Alegria.svg)](https://github.com/fga-gpp-mds/2018.1-Gamaron-da-Alegria)
 
-[![Read the Docs](https://img.shields.io/readthedocs/pip.svg)](https://github.com/fga-gpp-mds/2018.1-Lacos-da-Alegria)
-[![Maintainability](https://api.codeclimate.com/v1/badges/d4e2fff36d305c96179e/maintainability)](https://codeclimate.com/github/fga-gpp-mds/2018.1-Lacos-da-Alegria/maintainability)
-[![GitHub issues](https://img.shields.io/github/issues/fga-gpp-mds/2018.1-Lacos-da-Alegria.svg)](https://github.com/fga-gpp-mds/2018.1-Lacos-da-Alegria)
-[![license](https://img.shields.io/github/license/fga-gpp-mds/2018.1-Lacos-da-Alegria.svg)](https://github.com/fga-gpp-mds/2018.1-Lacos-da-Alegria)
+[![Read the Docs](https://img.shields.io/readthedocs/pip.svg)](https://github.com/fga-gpp-mds/2018.1-Gamaron-da-Alegria)
+[![Maintainability](https://api.codeclimate.com/v1/badges/d4e2fff36d305c96179e/maintainability)](https://codeclimate.com/github/fga-gpp-mds/2018.1-Gamaron-da-Alegria/maintainability)
+[![GitHub issues](https://img.shields.io/github/issues/fga-gpp-mds/2018.1-Gamaron-da-Alegria.svg)](https://github.com/fga-gpp-mds/2018.1-Gamaron-da-Alegria)
+[![license](https://img.shields.io/github/license/fga-gpp-mds/2018.1-Gamaron-da-Alegria.svg)](https://github.com/fga-gpp-mds/2018.1-Gamaron-da-Alegria)
 
-![logo-wide-lacos](http://oi66.tinypic.com/2lxvvw7.jpg)
+![logo-wide-gamaron](http://oi66.tinypic.com/2lxvvw7.jpg)
 
 Uma API open source escrita em Python, utilizando Django Rest Framework. É desenhado para ser extendível, escalável, simples e mutável.
 
@@ -39,7 +39,7 @@ Para rodar a API basta ter o Docker e o Docker Compose instalados e então rodar
 
 ```bash
 # Clonar este repositório 
-git clone https://github.com/fga-gpp-mds/2018.1-Lacos-da-Alegria-API.git
+git clone https://github.com/fga-gpp-mds/2018.1-Gamaron-da-Alegria-API.git
 
 # Construir o projeto
 sudo docker-compose -f local.yml build

@@ -1,9 +1,9 @@
-.. Lacos API documentation master file, created by
+.. Gamaron API documentation master file, created by
    sphinx-quickstart.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Lacos API's documentation!
+Welcome to Gamaron API's documentation!
 ====================================================================
 
 Contents:

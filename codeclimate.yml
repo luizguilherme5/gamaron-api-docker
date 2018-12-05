@@ -18,5 +18,5 @@ ratings:
   - "**.py"
   - "**.js"
 exclude_paths:
-- lacos_api/static/homepage/*
-- lacos_api/templates/*
+- gamaron/static/homepage/*
+- gamaron/templates/*

@@ -7,8 +7,8 @@ import os
 
 from datetime import timedelta
 
-ROOT_DIR = environ.Path(__file__) - 3  # (lacos_api/config/settings/base.py - 3 = lacos_api/)
-APPS_DIR = ROOT_DIR.path('lacos_api')
+ROOT_DIR = environ.Path(__file__) - 3  # (gamaron/config/settings/base.py - 3 = gamaron/)
+APPS_DIR = ROOT_DIR.path('gamaron')
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 env = environ.Env()
@@ -109,12 +109,12 @@ THIRD_PARTY_APPS = [
 ]
 
 LOCAL_APPS = [
-    # 'lacos_api.users.apps.UsersConfig',
+    # 'gamaron.users.apps.UsersConfig',
     # Your stuff: custom apps go here
-    'lacos_api.general.apps.GeneralConfig',
-    'lacos_api.user_api.apps.UserApiConfig',
-    'lacos_api.activity_api.apps.ActivityApiConfig',
-    'lacos_api.news_api.apps.NewsApiConfig',
+    'gamaron.general.apps.GeneralConfig',
+    'gamaron.users.apps.UsersConfig',
+    'gamaron.itens.apps.ItensConfig',
+    'gamaron.quests.apps.QuestsConfig',
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -123,7 +123,7 @@ INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#migration-modules
 MIGRATION_MODULES = {
- 'general': 'lacos_api.general.migrations'
+ 'general': 'gamaron.general.migrations'
 }
 
 # AUTHENTICATION
@@ -134,7 +134,7 @@ AUTHENTICATION_BACKENDS = [
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#auth-user-model
-AUTH_USER_MODEL = 'user_api.UserProfile'
+# AUTH_USER_MODEL = 'users.UserProfile'
 # https://docs.djangoproject.com/en/dev/ref/settings/#login-redirect-url
 # LOGIN_REDIRECT_URL = 'users:redirect'
 # https://docs.djangoproject.com/en/dev/ref/settings/#login-url
@@ -277,9 +277,9 @@ ACCOUNT_EMAIL_REQUIRED = True
 # https://django-allauth.readthedocs.io/en/latest/configuration.html
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 # https://django-allauth.readthedocs.io/en/latest/configuration.html
-ACCOUNT_ADAPTER = 'lacos_api.users.adapters.AccountAdapter'
+ACCOUNT_ADAPTER = 'gamaron.users.adapters.AccountAdapter'
 # https://django-allauth.readthedocs.io/en/latest/configuration.html
-SOCIALACCOUNT_ADAPTER = 'lacos_api.users.adapters.SocialAccountAdapter'
+SOCIALACCOUNT_ADAPTER = 'gamaron.users.adapters.SocialAccountAdapter'
 
 
 # Your stuff...
