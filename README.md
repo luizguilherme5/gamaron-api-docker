@@ -1,26 +1,12 @@
+![logo-wide-gamaron](https://previews.123rf.com/images/chuckchee/chuckchee1605/chuckchee160500001/56731287-pixel-art-characters-8-bit-game-characters-warriors-monsters-mage-sorcerer-humans-and-orcs-we-love-8.jpg)
 
-[![Travis branch](https://img.shields.io/travis/fga-gpp-mds/2018.1-Gamaron-da-Alegria.svg)](https://github.com/fga-gpp-mds/2018.1-Gamaron-da-Alegria)
-
-[![Read the Docs](https://img.shields.io/readthedocs/pip.svg)](https://github.com/fga-gpp-mds/2018.1-Gamaron-da-Alegria)
-[![Maintainability](https://api.codeclimate.com/v1/badges/d4e2fff36d305c96179e/maintainability)](https://codeclimate.com/github/fga-gpp-mds/2018.1-Gamaron-da-Alegria/maintainability)
-[![GitHub issues](https://img.shields.io/github/issues/fga-gpp-mds/2018.1-Gamaron-da-Alegria.svg)](https://github.com/fga-gpp-mds/2018.1-Gamaron-da-Alegria)
-[![license](https://img.shields.io/github/license/fga-gpp-mds/2018.1-Gamaron-da-Alegria.svg)](https://github.com/fga-gpp-mds/2018.1-Gamaron-da-Alegria)
-
-![logo-wide-gamaron](http://oi66.tinypic.com/2lxvvw7.jpg)
+# Gamaron
 
 Uma API open source escrita em Python, utilizando Django Rest Framework. É desenhado para ser extendível, escalável, simples e mutável.
 
-Esta API é desenhada para comunicar-se, utilizando uma arquitetura REST entre um banco de dados relacional de forma independente uma aplicação Django Rest de forma otimizada para Ionic Framework, que é o framework escolhido para desenvolvimento da aplicação Laços de Alegria, feita pela mesma equipe. Esta aplicação ainda busca ser facilmente convertida para Java Spring Boot para servir a arquitetura original do website da Laços de Alegria.
+Esta API é desenhada para comunicar-se, utilizando uma arquitetura REST entre um banco de dados relacional de forma independente uma aplicação Django Rest de forma otimizada para ReactJS, que é o framework escolhido para desenvolvimento da aplicação Gamaron, feita pela mesma equipe.
 
-## Laços de Alegria
-De acordo com a psicóloga Dayana Lima Dantas Valverde (2010), “Embora a palavra hospital venha da palavra hospitalidade, muitos pacientes não o consideram como local hospedeiro. O bem estar psicológico do paciente não é o principal objetivo do atendimento e sim prestar socorro àquele que tem um sofrimento relacionado com o biológico e orgânico”.
-
-É a partir disso que a Laços da Alegria age para tratar do bem estar mental e social dos pacientes de hospitais. Os voluntários vão de corações abertos para as visitações a fim de proporcionar boa companhia para os presentes nos locais visitados. Os voluntários fazem as visitas caracterizados e proporcionam abordagens diferenciadas levando-se em consideração a cultura regional. Tendo como exemplo as “piadas” ocorridas em um local, podem não ser bem recebidas em um outro. Assim, são tomados cuidados especiais em cada visitação.
-
-As visitas ocorrem em grupos de cerca de 20 pessoas, as quais são subdivididas em grupos de doutores - são os mais experientes nas visitações -, apoio - são responsáveis pela interação inicial com os pacientes - e novatos - os que estão fazendo sua primeira visita. Atualmente a ONG Laços da Alegria proporciona suas visitas a 7 hospitais em todo o Distrito Federal. As visitas a hospitais ocorrem semanalmente e quinzenalmente às outras organizações. Por ser uma organização sem fins lucrativos, não são cobradas taxas para participar ou promover o projeto.
-
-
-## Vantagens da utilização da LaçosAPI
+## Vantagens da utilização da Gamaron API
 
 * É open source
 * Fácil de modificar e adaptar
@@ -39,7 +25,7 @@ Para rodar a API basta ter o Docker e o Docker Compose instalados e então rodar
 
 ```bash
 # Clonar este repositório 
-git clone https://github.com/fga-gpp-mds/2018.1-Gamaron-da-Alegria-API.git
+git clone https://github.com/luizguilherme5/gamaron-api-docker
 
 # Construir o projeto
 sudo docker-compose -f local.yml build
@@ -70,7 +56,7 @@ localhost:8000/api
 
 # Contribuindo
 
-Contribuir para a aplicação é muito simples e fortemente encorajado! Então se você conhece um pouquinho sobre Python ou APIs REST você estará ajudando não só a equipe de desenvolvimento, como a Laços de Alegria de uma forma muito simples.
+Contribuir para a aplicação é muito simples e fortemente encorajado! Então se você conhece um pouquinho sobre Python ou APIs REST você estará ajudando não só a equipe de desenvolvimento, com o Gamaron de uma forma muito simples.
 
 Todos os contribuidores, incluindo a equipe de desenvolvimento e os fundadores do projeto da aplicação móvel, contribuem usando o seguinte processo:
 
@@ -89,21 +75,3 @@ Caso precise de ajuda, crie uma issue, também seguindo o [padrão estabelecido]
 ## Contribuidores
 
 Este projeto existe graças aos contribuidores. [Seja um deles!](/docs/contributing.md).
-
-### Equipe de Gerência
-|Membro                         |Email                           |Github                                              |
-|-------------------------------|--------------------------------|----------------------------------------------------|
-|Cauê Mateus Oliveira           |cauemateus@hotmail.com          |[caue96](https://github.com/caue96)                 |
-|Julliana do Couto Almeida      |julliana.coutoalmeida@gmail.com |[jullianaa](https://github.com/Jullianaa)           |
-|Lucas Oliveira                 |lucasoliveira2306@gmail.com     |[lucaaas](https://github.com/lucaaas)               |
-|Luiz Guilherme Santos da Silva |do.guilherme@hotmail.com        |[luizguilherme5](https://github.com/luizguilherme5) |
-
-### Equipe de Desenvolvimento
-|Membro                         |Email                           |Github                                              |
-|-------------------------------|--------------------------------|----------------------------------------------------|
-|João Vítor Morandi             |joao.lemos4000@gmail.com        |[joaovitorml](https://github.com/joaovitorml)       |
-|Luciano dos Santos Silva       |lucianosz.ls3@gmail.com         |[lucianosz7](https://github.com/lucianosz7)         |
-|Rafael Makaha Gomes Ferreira   |rafael.makaha@gmail.com         |[rafaelmakaha](https://github.com/rafaelmakaha)     |
-|Renan Schadt                   |renanschadt@gmail.com           |[renan601](https://github.com/renan601)             |
-|Rômulo Vinícius de Souza       |romulovinicius10@gmail.com      |[RomuloSouza](https://github.com/RomuloSouza)       |
-|Sara Silva                     |saracsas2@gmail.com             |[silvasara](https://github.com/silvasara)           |
